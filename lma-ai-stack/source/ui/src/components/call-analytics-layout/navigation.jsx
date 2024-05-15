@@ -4,43 +4,19 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { SideNavigation } from '@awsui/components-react';
 
-import { CALLS_PATH, STREAM_AUDIO_PATH, DEFAULT_PATH } from '../../routes/constants';
+import { CALLS_PATH, DEFAULT_PATH } from '../../routes/constants';
 
 export const callsNavHeader = { text: 'Meeting Analytics', href: `#${DEFAULT_PATH}` };
 export const callsNavItems = [
   { type: 'link', text: 'Meetings', href: `#${CALLS_PATH}` },
   {
     type: 'section',
-    text: 'Sources',
+    text: 'Zip File For Chrome Extension',
     items: [
       {
         type: 'link',
-        text: 'Download Chrome Extension',
+        text: 'Download My Avatar Chrome Extension',
         href: '/lma-chrome-extension.zip',
-      },
-      {
-        type: 'link',
-        text: 'Stream Audio (no extension)',
-        href: `#${STREAM_AUDIO_PATH}`,
-        external: true,
-      },
-    ],
-  },
-  {
-    type: 'section',
-    text: 'Resources',
-    items: [
-      {
-        type: 'link',
-        text: 'Blog Post',
-        href: 'https://www.amazon.com/live-call-analytics',
-        external: true,
-      },
-      {
-        type: 'link',
-        text: 'Source Code',
-        href: 'https://github.com/aws-samples/amazon-transcribe-live-call-analytics',
-        external: true,
       },
     ],
   },

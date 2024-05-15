@@ -26,7 +26,7 @@ function Meeting() {
           </SpaceBetween>
 
           <SpaceBetween direction="horizontal" size="xs">
-            <Button variant='primary'>Start Listening</Button>
+            <Button variant='primary'>Start</Button>
             <Button onClick={() => navigate('login')}>Log out</Button>
           </SpaceBetween>
         </SpaceBetween>

@@ -239,16 +239,12 @@ const CallSummary = ({ item }) => {
         <Header
           variant="h4"
           info={
-            <Link
-              variant="info"
-              target="_blank"
-              href="https://docs.aws.amazon.com/transcribe/latest/dg/call-analytics-insights.html#call-analytics-insights-summarization"
-            >
+            <Link variant="info" target="_blank" href="_blank">
               Info
             </Link>
           }
         >
-          Meeting Summary
+          My Avatar Meeting Summary
         </Header>
       }
     >
@@ -698,12 +694,12 @@ const getAgentAssistPanel = (item, collapseSentiment) => {
           <Header
             variant="h4"
             info={
-              <Link variant="info" target="_blank" href="https://amazon.com/live-call-analytics">
+              <Link variant="info" target="_blank" href="_blank">
                 Info
               </Link>
             }
           >
-            Meeting Assist Bot
+            Meeting Assist
           </Header>
         }
       >
@@ -870,11 +866,7 @@ const VoiceToneContainer = ({
       <Header
         variant="h4"
         info={
-          <Link
-            variant="info"
-            target="_blank"
-            href="https://docs.aws.amazon.com/chime-sdk/latest/dg/call-analytics.html"
-          >
+          <Link variant="info" target="_blank" href="_blank">
             Info
           </Link>
         }
@@ -911,11 +903,7 @@ const CallStatsContainer = ({
         <Header
           variant="h4"
           info={
-            <Link
-              variant="info"
-              target="_blank"
-              href="https://docs.aws.amazon.com/transcribe/latest/dg/call-analytics-insights.html#call-analytics-insights-sentiment"
-            >
+            <Link variant="info" target="_blank" href="_blank">
               Info
             </Link>
           }
