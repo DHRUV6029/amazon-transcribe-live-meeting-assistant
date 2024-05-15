@@ -169,7 +169,7 @@ function IntegrationProvider({ children }: any) {
         }
       }
     } catch (exception) {
-      alert("If you recently installed or update LMA, please refresh the browser's page and try again.");
+      alert("refresh the browser's page and try again.");
     }
   }, [setShouldConnect, setCurrentCall]);
 

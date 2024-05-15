@@ -148,16 +148,7 @@ function Capture() {
               <ValueWithLabel label="Name:">{agentName}</ValueWithLabel>
               <ValueWithLabel label="Meeting Topic:">{topic}</ValueWithLabel>
               <ValueWithLabel label="Active Speaker:">{activeSpeaker}</ValueWithLabel>
-              {
-                paused === true ?
-                  <>
-                    <Button fullWidth={true} iconName="microphone-off" onClick={() => setPaused(false)}>Unmute All</Button>
-                  </>
-                  :
-                  <>
-                  <Button fullWidth={true} iconName="microphone" onClick={() => setPaused(true)}>Mute All</Button>
-                  </>
-              }
+              
               <Button fullWidth={true} variant='primary'  onClick={() => stopListening()}>Stop Listening</Button>
             </>
             :
