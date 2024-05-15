@@ -26,19 +26,19 @@ Parameters:
     Type: String
     Description: Disclaimer used for the extension message popup
     Default: >
-      Important: You are responsible for complying with legal, corporate, and ethical restrictions that apply to recording meetings and calls. Do not use this solution to stream, record, or transcribe calls if otherwise prohibited.
+      Important: You are responsible for complying with legal, corporate, and ethical restrictions that apply to recording meetings and calls.
 
   RecordingMessage:
     Type: String
     Description: Message used for the extension to notify speakers this meeting is being recorded.
     Default: >
-      This meeting is being recorded with Amazon Live Meeting Assistant - see https://amazon.com/live-meeting-assistant. 
+      This meeting is being recorded with My avatar Live Meeting Assistant. 
 
   StopRecordingMessage:
     Type: String
     Description: Message used for the extension to notify speakers this meeting has stopped being recorded.
     Default: >
-      Amazon Live Meeting Assistant recording stopped.
+      My avatar Live Meeting Assistant recording stopped.
 
   WebSocketEndpoint:
     Type: String
