@@ -42,8 +42,8 @@ function LoginCognito() {
           </Grid>
           <Grid gridDefinition={[{ colspan: 10, offset: 1 }]}>
             <SpaceBetween size={'xs'}>
-              <h2 className='header'>Amazon Live<br />Meeting Assistant</h2>
-              <p className='headerDesc'>Powered by Amazon Transcribe and Amazon Bedrock</p>
+              <h2 className='header'>My Avatar</h2>
+              <p className='headerDesc'>Live Meeting Assistant</p>
             </SpaceBetween>
           </Grid>
           <Grid gridDefinition={[{ colspan: 6, offset: 3 }]}>

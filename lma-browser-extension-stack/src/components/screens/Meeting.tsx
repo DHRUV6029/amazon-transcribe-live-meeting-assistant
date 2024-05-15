@@ -21,7 +21,7 @@ function Meeting() {
               variant="h1"
               description="With Amazon Q for Business"
             >
-              Amazon Live Meeting Assistant
+              My Avatar Live Meeting Assistant
             </Header>
           </SpaceBetween>
 
