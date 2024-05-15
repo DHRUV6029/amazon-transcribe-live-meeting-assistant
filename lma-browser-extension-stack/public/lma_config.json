@@ -3,7 +3,7 @@
   "clientId": "[placeholder]",
   "cognitoDomain": "[placeholder]",
   "cloudfrontEndpoint": "[placeholder]",
-  "recordingDisclaimer": "Important: You are responsible for complying with legal, corporate, and ethical restrictions that apply to recording meetings and calls. Do not use this solution to stream, record, or transcribe calls if otherwise prohibited.",
-  "recordingMessage": "This meeting is being recorded with Amazon Live Meeting Assistant - see https://amazon.com/live-meeting-assistant.",
+  "recordingDisclaimer": "recording started",
+  "recordingMessage": "My Avatar recording Started",
   "stopRecordingMessage": "Amazon Live Meeting Assistant recording stopped."
 }

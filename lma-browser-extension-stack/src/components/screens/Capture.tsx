@@ -104,9 +104,9 @@ function Capture() {
         <SpaceBetween size={'xs'}>
           <Header
             variant="h1"
-            description="Powered by Amazon Transcribe and Amazon Bedrock"
+            description="Live Meeting Assitant"
           >
-            Amazon Live Meeting Assistant
+            MyAvatar Live Meeting Assistant
           </Header>
         </SpaceBetween>
       }
@@ -141,7 +141,7 @@ function Capture() {
         {settings.recordingDisclaimer}
     </Modal>
         <SpaceBetween size="l">
-          <ValueWithLabel label="Platform Detected:">{platform}</ValueWithLabel>
+          <ValueWithLabel label="Meeting Detected:">{platform}</ValueWithLabel>
           {(isTranscribing === true ?
             <>
               <Button fullWidth={true} onClick={async () => openInLMA()}>Open in LMA</Button>
@@ -176,17 +176,13 @@ function Capture() {
                   errorText={meetingTopicErrorText}
                   label="Meeting Topic:"
                 >
-                <Input value={topic} onChange={({ detail }) => setTopic(detail.value)} placeholder='Meeting room topic' inputMode='text'></Input>
+                <Input value={topic} onChange={({ detail }) => setTopic(detail.value)} placeholder='Meeting topic' inputMode='text'></Input>
               </FormField>
               <Button fullWidth={true} variant='primary' onClick={() => startListening()}>Start Listening</Button>
             </>
           )}
           <Grid gridDefinition={[{ colspan: 6 }, { colspan:6}]}>
-            {muted === true ? 
-              <Button  iconAlign="left" iconName="microphone-off" fullWidth={true} onClick={() => unmute()}>Unmute Me</Button>
-              : 
-              <Button  iconAlign="left" iconName="microphone" fullWidth={true} onClick={() => mute()}>Mute Me</Button>
-            }
+    
             <Button fullWidth={true} onClick={() => logout()}>Log out</Button>
           </Grid>
 
